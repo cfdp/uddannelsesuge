@@ -35,3 +35,7 @@ xmlrpc.php
 /profiles
 /scripts
 /themes
+
+# Mac folder files & sass cache
+.DS_Store
+.sass-cache
