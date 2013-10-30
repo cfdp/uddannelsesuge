@@ -1,0 +1,260 @@
+@import "normalize";
+@import "foundation";
+
+// Universal //
+///////////////
+
+html, body {
+  height: 100%; } // fix for sticky footer
+
+.clearfix {
+  @include clearfix; }
+
+.one-space-after:after {
+  content: "";
+  display: block;
+  margin-bottom: 1em; }
+
+.one-space-before:before {
+  content: "";
+  display: block;
+  margin-top: 1em; }
+
+// Top bar
+.spacer-navbar {
+  margin-top: 30px; }
+
+// page-content
+.page-content section {
+  padding: 1em 0; }
+
+.lite-info dl {
+  dt {
+    float: left;
+    clear: left;
+    padding-right: 1em;
+    color: #aaa;
+    font-weight: 600;
+    min-width: 95px;
+  }
+
+  dd {
+    float: left;
+
+    div {
+      display: inline;
+    }
+  }
+
+}
+
+.lite-info.panel {
+  h4 a {
+    color: #000;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  dl dd:last-child {
+    margin-bottom: 0;
+  }
+}
+
+section.hero {
+  text-align: center;
+}
+
+// Google map sizing
+#gmap {
+  width: 100%;
+  height: 200px;
+}
+
+// rounded images
+.rounded-333 {
+  border-radius: 333px;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px; height: 0; overflow: hidden;
+  margin-bottom: 1em;
+
+  iframe,
+  object,
+  embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+// Sticky footer - css-tricks.com/snippets/css/sticky-footer
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -100px; }
+
+.page-wrap:after {
+  content: "";
+  display: block; }
+
+.page-wrap:after {
+  height: 50px;
+}
+
+.site-footer {
+  position: relative;
+  bottom: -50px;
+  height: 49px;
+  background: #ddd;
+  border-top: 1px solid #ccc;
+
+  p {
+    text-align: center;
+    position: relative;
+    top: 17px;
+    font-size: em-calc(11);
+    color: #666;
+    text-transform: uppercase
+  }
+
+  a {
+    color: #888;
+    &:hover {
+      text-decoration: underline;
+      color: #222;
+    }
+  }
+}
+
+// Page / Module specific //
+////////////////////////////
+
+.top-bar {
+  .toggle-topbar.menu-icon a,
+  .name h1 a {
+    color: #000;
+  }
+
+  &.expanded .toggle-topbar a {
+    color: #888;
+  }
+}
+
+
+
+.top-bar-section {
+  ul li > a:hover {
+    text-decoration: underline;
+  }
+
+}
+
+//Module: Tip en 13'er advert
+.m_tip13-ad {
+  h2 {
+    @media (max-width: 460px) {
+      text-align: left !important;
+    }
+  }
+
+
+  .subheader {
+    @media (max-width: 322px) {
+      display: none;
+    }
+  }
+}
+
+
+//about
+.page-about .lite-info dl dt{
+  min-width: 85px;
+}
+
+.page-home {
+  @media (max-width: 400px) {
+    h1 {
+      font-size: 1.6em;
+    }
+  }
+
+  @media (max-width: 460px) {
+    h2 {
+      text-align: center;
+    }
+  }
+}
+
+// Module: Program
+section#program {
+  padding-top: 3em;
+
+  @media (max-width:600px) {
+    i {
+      font-size: 14px; }
+
+    ul.no-bullet li{
+      font-size: 14px;
+      line-height: 1.15em;
+      margin-bottom: .60em;
+    }
+  }
+}
+
+// Module: Activities
+section.activities {
+  padding-top: 3em;
+
+  img {
+    display: block;
+    margin: 10px 15px 30px 0;
+    width: 98px;
+    height: 98px;
+    border-radius: 98px;
+
+    @media (max-width: 460px) {
+      float: none !important;
+      margin: 0 auto;
+    }
+  }
+
+
+
+  h4 {
+    margin-bottom: 0;
+
+    @media (max-width: 768px) {
+      margin-top: 1.4em; }
+
+    @media (max-width: 460px) {
+      margin-top: .6em;
+      text-align: center;
+    }
+  }
+
+  p {
+    @media (max-width:600px) {
+      font-size: 14px; }
+
+    @media (max-width:460px) {
+      text-align: center;
+    }
+  }
+
+}
+
+// Module: Advert
+.advert {
+  padding-top: 3em;
+}
+
+// Page: Activity
+.field-name-field-image img {
+  @extend .rounded-333;
+}
