@@ -15,11 +15,12 @@
             <li class="toggle-topbar menu-icon"><a href="#"><span><?php print $top_bar_menu_text; ?></span></a></li>
           </ul>
           <section class="top-bar-section">
-            <?php if ($top_bar_main_menu) :?>
-              <?php print $top_bar_main_menu; ?>
-            <?php endif; ?>
             <?php if ($top_bar_secondary_menu) :?>
               <?php print $top_bar_secondary_menu; ?>
+            <?php endif; ?>
+
+            <?php if ($top_bar_main_menu) :?>
+              <?php print $top_bar_main_menu; ?>
             <?php endif; ?>
           </section>
         </nav>
@@ -57,16 +58,16 @@
         <h2 title="<?php print $site_slogan; ?>" class="site-slogan"><?php print $site_slogan; ?></h2>
       <?php endif; ?>
 
-      <?php if ($alt_main_menu): ?>
-        <nav id="main-menu" class="navigation" role="navigation">
-          <?php print ($alt_main_menu); ?>
-        </nav> <!-- /#main-menu -->
-      <?php endif; ?>
-
       <?php if ($alt_secondary_menu): ?>
         <nav id="secondary-menu" class="navigation" role="navigation">
           <?php print $alt_secondary_menu; ?>
         </nav> <!-- /#secondary-menu -->
+      <?php endif; ?>
+
+      <?php if ($alt_main_menu): ?>
+        <nav id="main-menu" class="navigation" role="navigation">
+          <?php print ($alt_main_menu); ?>
+        </nav> <!-- /#main-menu -->
       <?php endif; ?>
 
     </section>

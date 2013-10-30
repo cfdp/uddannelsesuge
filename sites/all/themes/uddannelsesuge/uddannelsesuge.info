@@ -1,0 +1,37 @@
+name = Uddannelsesuge theme
+description = Drupal theme for uddannelsesuge.dk
+core = 7.x
+engine = phptemplate
+
+regions[header] = Header
+regions[content] = Content
+regions[footer] = Footer
+regions[page_sidebar] = Page Sidebar
+
+stylesheets[all][] = css/app.css
+
+; Modernizr acts as a shim for HTML5 elements for older browsers
+; as well as detection for mobile devices.
+scripts[] = js/vendor/custom.modernizr.js
+
+; Foundation framework scripts (uncompressed).
+scripts[] = js/foundation/foundation.js
+;scripts[] = js/foundation/foundation.abide.js
+;scripts[] = js/foundation/foundation.alerts.js
+;scripts[] = js/foundation/foundation.clearing.js
+;scripts[] = js/foundation/foundation.cookie.js
+;scripts[] = js/foundation/foundation.dropdown.js
+;scripts[] = js/foundation/foundation.forms.js
+;scripts[] = js/foundation/foundation.interchange.js
+;scripts[] = js/foundation/foundation.joyride.js
+;scripts[] = js/foundation/foundation.magellan.js
+;scripts[] = js/foundation/foundation.orbit.js
+;scripts[] = js/foundation/foundation.placeholder.js
+scripts[] = js/foundation/foundation.reveal.js
+;scripts[] = js/foundation/foundation.section.js
+;scripts[] = js/foundation/foundation.tooltips.js
+scripts[] = js/foundation/foundation.topbar.js
+
+; Theme scripts.
+; This file is empty, just uncomment this line and start editing!
+; scripts[] = js/uuge_aalborg.js
