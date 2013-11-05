@@ -5097,16 +5097,21 @@ html, body {
   padding: 1em 0; }
 
 .lite-info dl dt {
-  float: left;
-  clear: left;
-  padding-right: 1em;
   color: #aaa;
   font-weight: 600;
   min-width: 95px; }
-.lite-info dl dd {
+.lite-info dl dd div {
+  display: inline; }
+@media (max-width: 768px) {
+  .lite-info dl dt, .lite-info dl dd {
+    text-align: center; } }
+
+.lite-info--inline dt {
+  float: left;
+  clear: left;
+  padding-right: 1em; }
+.lite-info--inline dd {
   float: left; }
-  .lite-info dl dd div {
-    display: inline; }
 
 .lite-info.panel h4 a {
   color: #000; }
@@ -5237,3 +5242,15 @@ section.activities {
 
 .advert {
   padding-top: 3em; }
+
+.field-name-field-image img {
+  margin-bottom: 2em; }
+  @media (max-width: 768px) {
+    .field-name-field-image img {
+      width: 222px; } }
+@media (max-width: 768px) {
+  .field-name-field-image .field-item {
+    text-align: center; } }
+
+.button--signup {
+  margin-top: 2em; }

@@ -30,22 +30,31 @@ html, body {
 
 .lite-info dl {
   dt {
-    float: left;
-    clear: left;
-    padding-right: 1em;
     color: #aaa;
     font-weight: 600;
-    min-width: 95px;
+    min-width: 95px; }
+
+  dd div {
+    display: inline;
   }
+
+  @media (max-width: 768px){
+    dt, dd {
+      text-align: center;
+    }
+  }
+}
+
+.lite-info--inline {
+  dt {
+    float: left;
+    clear: left;
+    padding-right: 1em; }
 
   dd {
     float: left;
 
-    div {
-      display: inline;
-    }
   }
-
 }
 
 .lite-info.panel {
@@ -255,6 +264,26 @@ section.activities {
 }
 
 // Page: Activity
-.field-name-field-image img {
-  @extend .rounded-333;
+
+
+.field-name-field-image {
+  img {
+    @extend .rounded-333;
+    margin-bottom: 2em;
+
+    @media (max-width: 768px){
+
+      width: 222px;
+    }
+  }
+  .field-item {
+    @media (max-width: 768px){
+      text-align: center;
+    }
+  }
+
+}
+
+.button--signup {
+  margin-top: 2em;
 }
