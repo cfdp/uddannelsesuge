@@ -10,7 +10,7 @@
           <h1>Ungdomsuddannelses inspiration Aalborg</h1>
         </div>
       </div>
-      <img src="http://placekitten.com/1245/650" alt="Young people">
+      <img src="/<?php print path_to_theme(); ?>/images/hero_1245x650.jpg" alt="Young people">
     </section>
     <?php include(path_to_theme() . '/templates/partials/front/activities.tpl.php'); ?>
     <?php include(path_to_theme() . '/templates/partials/ad-quiz.tpl.php'); ?>

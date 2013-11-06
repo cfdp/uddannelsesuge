@@ -1417,7 +1417,7 @@ p {
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
-  font-weight: 800;
+  font-weight: 600;
   font-style: normal;
   color: #222222;
   text-rendering: optimizeLegibility;
@@ -3162,7 +3162,7 @@ label.error {
 /* Wrapped around .top-bar to contain to grid width */
 .contain-to-grid {
   width: 100%;
-  background: white; }
+  background: #f0f0f0; }
   .contain-to-grid .top-bar {
     margin-bottom: 0; }
 
@@ -3190,7 +3190,7 @@ label.error {
   height: 45px;
   line-height: 45px;
   position: relative;
-  background: white;
+  background: #f0f0f0;
   margin-bottom: 0; }
   .top-bar ul {
     margin-bottom: 0;
@@ -3261,7 +3261,7 @@ label.error {
     height: auto;
     background: transparent; }
     .top-bar.expanded .title-area {
-      background: white; }
+      background: #f0f0f0; }
     .top-bar.expanded .toggle-topbar a {
       color: #888888; }
       .top-bar.expanded .toggle-topbar a span {
@@ -3279,13 +3279,13 @@ label.error {
     width: 100%;
     height: auto;
     display: block;
-    background: white;
+    background: #f0f0f0;
     font-size: 16px;
     margin: 0; }
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
     border-bottom: solid 1px white;
-    border-top: solid 1px #e6e6e6;
+    border-top: solid 1px #d6d6d6;
     clear: both;
     height: 1px;
     width: 100%; }
@@ -3297,7 +3297,7 @@ label.error {
     padding-left: 15px;
     font-size: 0.8125em;
     font-weight: 600;
-    background: white; }
+    background: #f0f0f0; }
     .top-bar-section ul li > a.button {
       background: #19a5bc;
       font-size: 0.8125em;
@@ -3321,7 +3321,7 @@ label.error {
     background: white;
     color: #137d8f; }
   .top-bar-section ul li.active > a {
-    background: white;
+    background: #f0f0f0;
     color: #137d8f; }
   .top-bar-section .has-form {
     padding: 15px; }
@@ -3381,7 +3381,7 @@ label.error {
 
 @media only screen and (min-width: 940px) {
   .top-bar {
-    background: white;
+    background: #f0f0f0;
     *zoom: 1;
     overflow: visible; }
     .top-bar:before, .top-bar:after {
@@ -3404,7 +3404,7 @@ label.error {
       position: relative;
       top: 8px; }
     .top-bar.expanded {
-      background: white; }
+      background: #f0f0f0; }
 
   .contain-to-grid .top-bar {
     max-width: 62.5em;
@@ -3430,7 +3430,7 @@ label.error {
     .top-bar-section li a:not(.button) {
       padding: 0 15px;
       line-height: 45px;
-      background: white; }
+      background: #f0f0f0; }
       .top-bar-section li a:not(.button):hover {
         background: white; }
     .top-bar-section .has-dropdown > a {
@@ -3467,10 +3467,10 @@ label.error {
         line-height: 1;
         white-space: nowrap;
         padding: 7px 15px;
-        background: white; }
+        background: #fdfdfd; }
       .top-bar-section .dropdown li label {
         white-space: nowrap;
-        background: white; }
+        background: #fdfdfd; }
       .top-bar-section .dropdown li .dropdown {
         left: 100%;
         top: 0; }
@@ -3478,12 +3478,12 @@ label.error {
       border-bottom: none;
       border-top: none;
       border-right: solid 1px white;
-      border-left: solid 1px #e6e6e6;
+      border-left: solid 1px #d6d6d6;
       clear: none;
       height: 45px;
       width: 0; }
     .top-bar-section .has-form {
-      background: white;
+      background: #f0f0f0;
       padding: 0 15px;
       height: 45px; }
     .top-bar-section ul.right li .dropdown {
@@ -3496,7 +3496,7 @@ label.error {
     background: white;
     color: #137d8f; }
   .no-js .top-bar-section ul li:active > a {
-    background: white;
+    background: #f0f0f0;
     color: #137d8f; }
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
     display: block; } }
@@ -5202,12 +5202,27 @@ section.hero {
   .page-home h2 {
     text-align: center; } }
 
-section#program {
+#program {
   padding-top: 3em; }
+  #program h4 {
+    text-transform: uppercase; }
+  #program h5 {
+    color: #999;
+    font-size: 12px;
+    text-transform: uppercase; }
+  #program a {
+    font-size: 14px;
+    line-height: 14px; }
+    #program a:hover {
+      text-decoration: underline; }
+  #program ul.no-bullet {
+    margin-bottom: 1.5em; }
+    #program ul.no-bullet li {
+      margin-bottom: 0.2em; }
   @media (max-width: 600px) {
-    section#program i {
+    #program i {
       font-size: 14px; }
-    section#program ul.no-bullet li {
+    #program ul.no-bullet li {
       font-size: 14px;
       line-height: 1.15em;
       margin-bottom: .60em; } }

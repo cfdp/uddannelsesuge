@@ -29,11 +29,13 @@
           <ul class="no-bullet">
             <li><a href="#">Virksomheder slår dørene op</a></li>
             <li><a href="#">Kom og få et SUS</a></li>
+            <li class="show-for-medium-up"><a href="#">&nbsp;</a></li>
           </ul>
           <h5>Eftermiddag</h5>
           <ul class="no-bullet">
             <li><a href="#">Virksomheder slår dørene op</a></li>
             <li><a href="#">Kom og få et SUS</a></li>
+            <li class="show-for-medium-up"><a href="#">&nbsp;</a></li>
           </ul>
           <h5>Hele dagen</h5>
           <ul class="no-bullet">
@@ -49,6 +51,7 @@
         <ul class="no-bullet">
           <li><a href="#">Virksomheder slår dørene op</a></li>
           <li><a href="#">Kom og få et SUS</a></li>
+          <li class="show-for-medium-up"><a href="#">&nbsp;</a></li>
         </ul>
         <h5>Eftermiddag</h5>
         <ul class="no-bullet">
