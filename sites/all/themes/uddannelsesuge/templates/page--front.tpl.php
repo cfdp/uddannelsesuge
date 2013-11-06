@@ -7,7 +7,8 @@
     <section class="hero one-space-after one-space-before">
       <div class="row">
         <div class="columns">
-          <h1>Ungdomsuddannelses inspiration Aalborg</h1>
+          <h1>Her kommer Uddannelseuges website.</h1>
+          <h2 class="subheader">under opbygning...</h2>
         </div>
       </div>
       <img src="/<?php print path_to_theme(); ?>/images/hero_1245x650.jpg" alt="Young people">
