@@ -179,7 +179,7 @@ $primary-color: #19a5bc;
 // $header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 $header-font-family: "Raleway", sans-serif;
 // $header-font-weight: bold;
-$header-font-weight: 800;
+$header-font-weight: 600;
 // $header-font-style: normal;
 // $header-font-color: #222;
 // $header-line-height: 1.4;
@@ -1266,7 +1266,7 @@ $crumb-border-size: 0;
 // Background color for the top bar
 
 // $topbar-bg-color: #111;
-$topbar-bg-color: #fff;
+$topbar-bg-color: #f0f0f0;
 // $topbar-bg: $topbar-bg-color;
 
 // Height and margin
@@ -1286,7 +1286,7 @@ $topbar-bg-color: #fff;
 // Style the top bar dropdown elements
 
 // $topbar-dropdown-bg: #222;
-$topbar-dropdown-bg: #fff;
+$topbar-dropdown-bg: #f0f0f0;
 // $topbar-dropdown-link-color: #fff;
 // $topbar-dropdown-link-bg: lighten($topbar-bg-color, 5%);
 // $topbar-dropdown-toggle-size: 5px;
@@ -1308,7 +1308,7 @@ $topbar-link-weight: 600;
 // $topbar-link-bg-hover: darken($topbar-bg-color, 3%);
 $topbar-link-bg-hover: #fff;
 // $topbar-link-bg-active: darken($topbar-bg-color, 3%);
-$topbar-link-bg-active: #fff;
+$topbar-link-bg-active: #f0f0f0;
 
 // $topbar-dropdown-label-color: #555;
 // $topbar-dropdown-label-text-transform: uppercase;

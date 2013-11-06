@@ -88,7 +88,12 @@
         <?php hide($content['field_activity_contact_phone']); ?>
         <?php print render($content); ?>
 
-        <h3>Kontakt</h3>
+
+      </div><!-- .large-7 -->
+
+      <div class="sidebar large-4 offset-1 columns">
+        <?php print render($content['field_image']); ?>
+
         <div class="lite-info">
           <dl>
             <dt>Sted</dt>
@@ -97,12 +102,7 @@
             <dd><?php print render($content['field_activity_contact_name']); ?> - <?php print render($content['field_activity_contact_phone']); ?></dd>
           </dl>
         </div>
-
-
-      </div><!-- .large-7 -->
-
-      <div class="large-4 offset-1 columns">
-        <?php print render($content['field_image']); ?>
+        <a href="#" class="button expand button--signup">Tilmeld skoleklasse</a>
       </div>
     </div>
   </div>
