@@ -5161,20 +5161,20 @@ section.hero {
   position: relative;
   bottom: -50px;
   height: 49px;
-  background: #ddd;
-  border-top: 1px solid #ccc; }
+  background: #f0f0f0;
+  border-top: 1px solid #d6d6d6; }
   .site-footer p {
     text-align: center;
     position: relative;
     top: 17px;
     font-size: 0.6875em;
-    color: #666;
+    color: #bdbdbd;
     text-transform: uppercase; }
   .site-footer a {
-    color: #888; }
+    color: #979797; }
     .site-footer a:hover {
       text-decoration: underline;
-      color: #222; }
+      color: #707070; }
 
 .top-bar .toggle-topbar.menu-icon a,
 .top-bar .name h1 a {

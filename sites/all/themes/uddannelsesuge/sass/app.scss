@@ -120,23 +120,23 @@ section.hero {
   position: relative;
   bottom: -50px;
   height: 49px;
-  background: #ddd;
-  border-top: 1px solid #ccc;
+  background: $topbar-bg-color;
+  border-top: 1px solid darken($topbar-bg-color, 10%);
 
   p {
     text-align: center;
     position: relative;
     top: 17px;
     font-size: em-calc(11);
-    color: #666;
+    color: darken($topbar-bg-color, 20%);
     text-transform: uppercase
   }
 
   a {
-    color: #888;
+    color: darken($topbar-bg-color, 35%);
     &:hover {
       text-decoration: underline;
-      color: #222;
+      color: darken($topbar-bg-color, 50%);
     }
   }
 }
