@@ -78,7 +78,9 @@
 <article id="node-<?php print $node->nid; ?>" class="row <?php print $classes; ?>"<?php print $attributes; ?>>
   <div class="columns">
 
-    <h1<?php print $title_attributes; ?>><?php print $title; ?></h1>
+    <?php if (!drupal_is_front_page()): ?>
+      <h1<?php print $title_attributes; ?>><?php print $title; ?></h1>
+    <?php endif; ?>
 
     <div class="row">
       <div class="large-7 columns">
