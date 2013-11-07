@@ -145,6 +145,8 @@ section.hero {
 ////////////////////////////
 
 .top-bar {
+  border-bottom: 1px solid darken($topbar-bg-color, 10%);
+
   .toggle-topbar.menu-icon a,
   .name h1 a {
     color: #000;
@@ -259,14 +261,21 @@ section.hero {
     width: 98px;
     height: 98px;
     border-radius: 98px;
-
-    @media (max-width: 460px) {
-      float: none !important;
-      margin: 0 auto;
-    }
   }
 
+  @media (max-width: 460px) {
+    .views-field-field-image {
+      text-align: center; }
 
+    .field-content {
+      float: none !important;
+      display: inline-block;
+
+      img {
+        margin-bottom: 10px;
+      }
+    }
+  }
 
   h4 {
     margin-bottom: 0;

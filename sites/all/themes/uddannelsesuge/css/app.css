@@ -3183,12 +3183,12 @@ label.error {
       z-index: 99; }
     .fixed.expanded:not(.top-bar) .top-bar-section {
       z-index: 98;
-      margin-top: 45px; }
+      margin-top: 55px; }
 
 .top-bar {
   overflow: hidden;
-  height: 45px;
-  line-height: 45px;
+  height: 55px;
+  line-height: 55px;
   position: relative;
   background: #f0f0f0;
   margin-bottom: 0; }
@@ -3210,11 +3210,11 @@ label.error {
     position: relative;
     margin: 0; }
   .top-bar .name {
-    height: 45px;
+    height: 55px;
     margin: 0;
     font-size: 16px; }
     .top-bar .name h1 {
-      line-height: 45px;
+      line-height: 55px;
       font-size: 1.0625em;
       margin: 0; }
       .top-bar .name h1 a {
@@ -3222,7 +3222,7 @@ label.error {
         color: #19a5bc;
         width: 50%;
         display: block;
-        padding: 0 15px; }
+        padding: 0 18.33333px; }
   .top-bar .toggle-topbar {
     position: absolute;
     right: 0;
@@ -3234,11 +3234,11 @@ label.error {
       font-weight: bold;
       position: relative;
       display: block;
-      padding: 0 15px;
-      height: 45px;
-      line-height: 45px; }
+      padding: 0 18.33333px;
+      height: 55px;
+      line-height: 55px; }
     .top-bar .toggle-topbar.menu-icon {
-      right: 15px;
+      right: 18.33333px;
       top: 50%;
       margin-top: -16px;
       padding-left: 40px; }
@@ -3294,15 +3294,15 @@ label.error {
     width: 100%;
     color: #19a5bc;
     padding: 12px 0 12px 0;
-    padding-left: 15px;
+    padding-left: 18.33333px;
     font-size: 0.8125em;
     font-weight: 600;
     background: #f0f0f0; }
     .top-bar-section ul li > a.button {
       background: #19a5bc;
       font-size: 0.8125em;
-      padding-right: 15px;
-      padding-left: 15px; }
+      padding-right: 18.33333px;
+      padding-left: 18.33333px; }
       .top-bar-section ul li > a.button:hover {
         background: #137d8f; }
     .top-bar-section ul li > a.button.secondary {
@@ -3324,7 +3324,7 @@ label.error {
     background: #f0f0f0;
     color: #137d8f; }
   .top-bar-section .has-form {
-    padding: 15px; }
+    padding: 18.33333px; }
   .top-bar-section .has-dropdown {
     position: relative; }
     .top-bar-section .has-dropdown > a:after {
@@ -3335,7 +3335,7 @@ label.error {
       border: inset 5px;
       border-color: transparent transparent transparent rgba(255, 255, 255, 0.5);
       border-left-style: solid;
-      margin-right: 15px;
+      margin-right: 18.33333px;
       margin-top: -4.5px;
       position: absolute;
       top: 50%;
@@ -3355,17 +3355,17 @@ label.error {
       height: auto; }
       .top-bar-section .dropdown li a {
         font-weight: normal;
-        padding: 8px 15px; }
+        padding: 8px 18.33333px; }
         .top-bar-section .dropdown li a.parent-link {
           font-weight: 600; }
       .top-bar-section .dropdown li.title h5 {
         margin-bottom: 0; }
         .top-bar-section .dropdown li.title h5 a {
           color: #19a5bc;
-          line-height: 22.5px;
+          line-height: 27.5px;
           display: block; }
     .top-bar-section .dropdown label {
-      padding: 8px 15px 2px;
+      padding: 8px 18.33333px 2px;
       margin-bottom: 0;
       text-transform: uppercase;
       color: #555555;
@@ -3428,13 +3428,13 @@ label.error {
       background: white;
       color: #137d8f; }
     .top-bar-section li a:not(.button) {
-      padding: 0 15px;
-      line-height: 45px;
+      padding: 0 18.33333px;
+      line-height: 55px;
       background: #f0f0f0; }
       .top-bar-section li a:not(.button):hover {
         background: white; }
     .top-bar-section .has-dropdown > a {
-      padding-right: 35px !important; }
+      padding-right: 38.33333px !important; }
       .top-bar-section .has-dropdown > a:after {
         content: "";
         display: block;
@@ -3444,7 +3444,7 @@ label.error {
         border-color: rgba(255, 255, 255, 0.5) transparent transparent transparent;
         border-top-style: solid;
         margin-top: -2.5px;
-        top: 22.5px; }
+        top: 27.5px; }
     .top-bar-section .has-dropdown.moved {
       position: relative; }
       .top-bar-section .has-dropdown.moved > .dropdown {
@@ -3466,7 +3466,7 @@ label.error {
         color: white;
         line-height: 1;
         white-space: nowrap;
-        padding: 7px 15px;
+        padding: 7px 18.33333px;
         background: #fdfdfd; }
       .top-bar-section .dropdown li label {
         white-space: nowrap;
@@ -3480,12 +3480,12 @@ label.error {
       border-right: solid 1px white;
       border-left: solid 1px #d6d6d6;
       clear: none;
-      height: 45px;
+      height: 55px;
       width: 0; }
     .top-bar-section .has-form {
       background: #f0f0f0;
-      padding: 0 15px;
-      height: 45px; }
+      padding: 0 18.33333px;
+      height: 55px; }
     .top-bar-section ul.right li .dropdown {
       left: auto;
       right: 0; }
@@ -5176,11 +5176,13 @@ section.hero {
       text-decoration: underline;
       color: #707070; }
 
-.top-bar .toggle-topbar.menu-icon a,
-.top-bar .name h1 a {
-  color: #000; }
-.top-bar.expanded .toggle-topbar a {
-  color: #888; }
+.top-bar {
+  border-bottom: 1px solid #d6d6d6; }
+  .top-bar .toggle-topbar.menu-icon a,
+  .top-bar .name h1 a {
+    color: #000; }
+  .top-bar.expanded .toggle-topbar a {
+    color: #888; }
 
 .top-bar-section ul li > a:hover {
   text-decoration: underline; }
@@ -5235,10 +5237,14 @@ section.hero {
     width: 98px;
     height: 98px;
     border-radius: 98px; }
-    @media (max-width: 460px) {
-      .activities img {
-        float: none !important;
-        margin: 0 auto; } }
+  @media (max-width: 460px) {
+    .activities .views-field-field-image {
+      text-align: center; }
+    .activities .field-content {
+      float: none !important;
+      display: inline-block; }
+      .activities .field-content img {
+        margin-bottom: 10px; } }
   .activities h4 {
     margin-bottom: 0; }
     @media (max-width: 768px) {
