@@ -103,7 +103,6 @@
             <dd><?php print render($content['field_activity_contact_name']); ?> - <?php print render($content['field_activity_contact_phone']); ?></dd>
           </dl>
         </div>
-        <a href="#" class="button expand button--signup">Tilmeld skoleklasse</a>
       </div>
     </div>
   </div>
