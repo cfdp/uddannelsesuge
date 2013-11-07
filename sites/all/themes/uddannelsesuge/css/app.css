@@ -5227,32 +5227,32 @@ section.hero {
       line-height: 1.15em;
       margin-bottom: .60em; } }
 
-section.activities {
+.activities {
   padding-top: 3em; }
-  section.activities img {
+  .activities img {
     display: block;
     margin: 10px 15px 30px 0;
     width: 98px;
     height: 98px;
     border-radius: 98px; }
     @media (max-width: 460px) {
-      section.activities img {
+      .activities img {
         float: none !important;
         margin: 0 auto; } }
-  section.activities h4 {
+  .activities h4 {
     margin-bottom: 0; }
     @media (max-width: 768px) {
-      section.activities h4 {
+      .activities h4 {
         margin-top: 1.4em; } }
     @media (max-width: 460px) {
-      section.activities h4 {
+      .activities h4 {
         margin-top: .6em;
         text-align: center; } }
   @media (max-width: 600px) {
-    section.activities p {
+    .activities p {
       font-size: 14px; } }
   @media (max-width: 460px) {
-    section.activities p {
+    .activities p {
       text-align: center; } }
 
 .advert {
