@@ -83,6 +83,7 @@
     <div class="row">
       <div class="large-7 columns">
         <?php hide($content['field_image']); ?>
+        <?php hide($content['field_body_teaser']); ?>
         <?php hide($content['field_activity_place']); ?>
         <?php hide($content['field_activity_contact_name']); ?>
         <?php hide($content['field_activity_contact_phone']); ?>
