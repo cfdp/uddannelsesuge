@@ -14,9 +14,9 @@
       </div>
       <img src="/<?php print path_to_theme(); ?>/images/hero_1245x650.jpg" alt="Young people">
     </section>
-    <?php include(path_to_theme() . '/templates/partials/front/activities.tpl.php'); ?>
-    <?php include(path_to_theme() . '/templates/partials/ad-quiz.tpl.php'); ?>
-    <?php include(path_to_theme() . '/templates/partials/front/program.tpl.php'); ?>
+    <?php //include(path_to_theme() . '/templates/partials/front/activities.tpl.php'); ?>
+    <?php //include(path_to_theme() . '/templates/partials/ad-quiz.tpl.php'); ?>
+    <?php //include(path_to_theme() . '/templates/partials/front/program.tpl.php'); ?>
 
   </div><!-- .page-content -->
 
