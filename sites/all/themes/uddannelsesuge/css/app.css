@@ -5090,6 +5090,9 @@ html, body {
   display: block;
   margin-top: 1em; }
 
+.ta_right {
+  text-align: right; }
+
 .spacer-navbar {
   margin-top: 30px; }
 
