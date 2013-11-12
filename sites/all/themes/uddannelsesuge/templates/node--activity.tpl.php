@@ -103,6 +103,9 @@
             <dd><?php print render($content['field_activity_contact_name']); ?> - <?php print render($content['field_activity_contact_phone']); ?></dd>
           </dl>
         </div>
+        <?php
+          print render($region['page_sidebar']);
+        ?>
       </div>
     </div>
   </div>
