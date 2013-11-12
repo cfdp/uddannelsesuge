@@ -5204,30 +5204,28 @@ section.hero {
   .page-home h2 {
     text-align: center; } }
 
-#program {
-  padding-top: 3em; }
-  #program h4 {
-    text-transform: uppercase; }
-  #program h5 {
-    color: #999;
-    font-size: 12px;
-    text-transform: uppercase; }
-  #program a {
+#program h4 {
+  text-transform: uppercase; }
+#program h5 {
+  color: #999;
+  font-size: 12px;
+  text-transform: uppercase; }
+#program a {
+  font-size: 14px;
+  line-height: 14px; }
+  #program a:hover {
+    text-decoration: underline; }
+#program ul.no-bullet {
+  margin-bottom: 1.5em; }
+  #program ul.no-bullet li {
+    margin-bottom: 0.2em; }
+@media (max-width: 600px) {
+  #program i {
+    font-size: 14px; }
+  #program ul.no-bullet li {
     font-size: 14px;
-    line-height: 14px; }
-    #program a:hover {
-      text-decoration: underline; }
-  #program ul.no-bullet {
-    margin-bottom: 1.5em; }
-    #program ul.no-bullet li {
-      margin-bottom: 0.2em; }
-  @media (max-width: 600px) {
-    #program i {
-      font-size: 14px; }
-    #program ul.no-bullet li {
-      font-size: 14px;
-      line-height: 1.15em;
-      margin-bottom: .60em; } }
+    line-height: 1.15em;
+    margin-bottom: .60em; } }
 
 .activities {
   padding-top: 3em; }
