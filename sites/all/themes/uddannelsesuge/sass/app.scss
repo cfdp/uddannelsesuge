@@ -144,8 +144,11 @@ section.hero {
 // Page / Module specific //
 ////////////////////////////
 
-.top-bar {
+.contain-to-grid {
   border-bottom: 1px solid darken($topbar-bg-color, 10%);
+}
+
+.top-bar {
 
   .toggle-topbar.menu-icon a,
   .name h1 a {
