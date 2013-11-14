@@ -1,5 +1,6 @@
 <?php
 
+drupal_add_http_header('X-XSS-Protection', '0');
 /*
 * Preporcess function to allow the rendering of regions in node templates
 */

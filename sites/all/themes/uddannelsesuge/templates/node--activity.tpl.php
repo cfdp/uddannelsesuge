@@ -94,6 +94,7 @@
 
       <div class="sidebar large-4 offset-1 columns">
         <?php print render($content['field_image']); ?>
+        <?php print render($region['page_sidebar']); ?>
 
         <div class="lite-info">
           <dl>
@@ -103,9 +104,7 @@
             <dd><?php print render($content['field_activity_contact_name']); ?> - <?php print render($content['field_activity_contact_phone']); ?></dd>
           </dl>
         </div>
-        <?php
-          print render($region['page_sidebar']);
-        ?>
+
       </div>
     </div>
   </div>
