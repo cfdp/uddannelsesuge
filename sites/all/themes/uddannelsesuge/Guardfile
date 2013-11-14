@@ -1,5 +1,5 @@
 guard 'livereload' do
-  watch(%r{.+\.(info|php|scss|js)$})
+  watch(%r{.+\.(info|php|css|js)$})
 end
 
 guard 'sass', :input => 'sass', :output => 'css'

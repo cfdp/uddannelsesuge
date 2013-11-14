@@ -12,11 +12,11 @@
     <section class="top-bar-section">
       <!-- Right Nav Section -->
       <ul class="right">
-        <li class="active"><a href="/">Forside</a></li>
-        <li><a href="/#program">Program</a></li>
+        <li><a href="/">Forside</a></li>
         <li><a href="/#activities">Aktiviteter</a></li>
+        <li><a href="/#program">Program</a></li>
         <!-- <li><a href="/quiz">Uge 4 Quiz</a></li> -->
-        <li><a href="/about">Om uddannelsesugen</a></li>
+        <li><a href="/om">Om uddannelsesugen</a></li>
       </ul>
     </section>
   </nav>

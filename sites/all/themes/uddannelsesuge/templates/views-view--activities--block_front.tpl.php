@@ -27,7 +27,7 @@
  * @ingroup views_templates
  */
 ?>
-<div class="row">
+<div class="row" id="activities">
   <div class="columns">
 
     <div class="<?php print $classes; ?>">
