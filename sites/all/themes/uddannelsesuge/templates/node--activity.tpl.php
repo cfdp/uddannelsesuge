@@ -102,6 +102,14 @@
             <dd><?php print render($content['field_activity_place']); ?></dd>
             <dt>Ansvarlig</dt>
             <dd><?php print render($content['field_activity_contact_name']); ?> - <?php print render($content['field_activity_contact_phone']); ?></dd>
+            <dt>Del aktiviteten</dt>
+            <dd>
+              <?php
+                $sharing_url = "http://uddannelsesuge.dk". $node_url;
+                $sharing_text = $title;
+              ?>
+              <?php include(path_to_theme() . '/templates/partials/sharing-btns.tpl.php'); ?>
+            </dd>
           </dl>
         </div>
 
