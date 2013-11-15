@@ -5277,3 +5277,41 @@ section.hero {
 
 .button--signup {
   margin-top: 2em; }
+
+.page-arrangementer-register form {
+  max-width: 580px; }
+.page-arrangementer-register .form-item {
+  margin-bottom: 1.5em; }
+.page-arrangementer-register .form-item-field-school-und,
+.page-arrangementer-register .form-item-field-contact-phone-und-0-value {
+  margin-bottom: 0; }
+.page-arrangementer-register .form-item-field-note-und-0-value {
+  margin-bottom: .5em; }
+.page-arrangementer-register .description {
+  color: #999; }
+.page-arrangementer-register input[type="submit"] {
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0 0 1.25em;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding-top: 0.75em;
+  padding-right: 1.5em;
+  padding-bottom: 0.8125em;
+  padding-left: 1.5em;
+  font-size: 1em;
+  background-color: #19a5bc;
+  border-color: #137d8f;
+  color: white; }
+  .page-arrangementer-register input[type="submit"]:hover, .page-arrangementer-register input[type="submit"]:focus {
+    background-color: #137d8f; }
+  .page-arrangementer-register input[type="submit"]:hover, .page-arrangementer-register input[type="submit"]:focus {
+    color: white; }
+.page-arrangementer-register #edit-cancel {
+  display: none; }

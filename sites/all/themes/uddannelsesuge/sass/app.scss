@@ -1,5 +1,7 @@
+@import "foundation/variables";
 @import "normalize";
 @import "foundation";
+
 
 // Universal //
 ///////////////
@@ -333,4 +335,37 @@ section.hero {
 
 .button--signup {
   margin-top: 2em;
+}
+
+// Page: Signup event
+.page-arrangementer-register {
+  form {
+    max-width: 580px; }
+
+  .form-item {
+    margin-bottom: 1.5em; }
+
+  .form-item-field-school-und,
+  .form-item-field-contact-phone-und-0-value {
+    margin-bottom: 0;
+  }
+
+  .form-item-field-note-und-0-value {
+    margin-bottom: .5em;
+  }
+
+
+  .description {
+    color: #999;
+  }
+
+  input[type="submit"] {
+    @include button-base;
+    @include button-size($button-med);
+    @include button-style($primary-color);
+  }
+
+  #edit-cancel {
+    display: none;
+  }
 }
