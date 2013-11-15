@@ -5284,8 +5284,10 @@ section.hero {
   .field-name-field-image .field-item {
     text-align: center; } }
 
-.button--signup {
-  margin-top: 2em; }
+.view-display-id-block_1 a.Closed {
+  color: #999;
+  text-decoration: line-through;
+  cursor: no-drop; }
 
 .page-arrangementer-register form {
   max-width: 580px; }

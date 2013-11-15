@@ -331,7 +331,6 @@ section.hero {
 
 // Page: Activity
 
-
 .field-name-field-image {
   img {
     @extend .rounded-333;
@@ -350,8 +349,10 @@ section.hero {
 
 }
 
-.button--signup {
-  margin-top: 2em;
+.view-display-id-block_1 a.Closed {
+  color: #999;
+  text-decoration: line-through;
+  cursor: no-drop;
 }
 
 // Page: Signup event
