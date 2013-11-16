@@ -16,7 +16,8 @@
         <li><a href="/#activities">Aktiviteter</a></li>
         <li><a href="/#program">Program</a></li>
         <!-- <li><a href="/quiz">Uge 4 Quiz</a></li> -->
-        <li><a href="/om">Om uddannelsesugen</a></li>
+        <li><a href="/tilmeld">Tilmeld Klasse</a></li>
+        <li><a href="/om">Om Uddannelsesuge</a></li>
       </ul>
     </section>
   </nav>
