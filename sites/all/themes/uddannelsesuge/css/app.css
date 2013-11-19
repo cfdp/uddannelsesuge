@@ -5105,9 +5105,9 @@ html, body {
   min-width: 95px; }
 .lite-info dl dd div {
   display: inline; }
-@media (max-width: 768px) {
-  .lite-info dl dt, .lite-info dl dd {
-    text-align: center; } }
+
+.item-list ul li {
+  margin: 0; }
 
 .lite-info--inline dt {
   float: left;

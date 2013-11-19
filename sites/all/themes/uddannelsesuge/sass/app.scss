@@ -43,11 +43,10 @@ html, body {
     display: inline;
   }
 
-  @media (max-width: 768px){
-    dt, dd {
-      text-align: center;
-    }
-  }
+}
+
+.item-list ul li {
+  margin: 0;
 }
 
 .lite-info--inline {

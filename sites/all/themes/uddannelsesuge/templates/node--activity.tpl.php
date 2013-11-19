@@ -96,6 +96,7 @@
         <?php print render($content['field_image']); ?>
         <?php print render($region['page_sidebar']); ?>
 
+        <h2>Information</h2>
         <div class="lite-info">
           <dl>
             <dt>Sted</dt>
