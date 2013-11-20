@@ -79,6 +79,7 @@ section.hero {
   text-align: center;
 }
 
+
 // Google map sizing
 #gmap {
   width: 100%;
@@ -403,3 +404,23 @@ section.hero {
     display: none;
   }
 }
+
+// Page: Signup "List all events with link to event signup page"
+
+.page-node-71 {
+  .big-asterisk {
+    font-size: 40px;
+    float: left;
+    position: relative;
+    top: -7px;
+    margin-right: 5px; }
+
+  .signup-req_no:after {
+    content: "*";
+    font-size: 17px;
+    color: #000;
+    font-weight: bold;
+    padding-left: 3px;
+  }
+}
+

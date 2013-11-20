@@ -5338,3 +5338,16 @@ section.hero {
     color: white; }
 .page-arrangementer-register #edit-cancel {
   display: none; }
+
+.page-node-71 .big-asterisk {
+  font-size: 40px;
+  float: left;
+  position: relative;
+  top: -7px;
+  margin-right: 5px; }
+.page-node-71 .signup-req_no:after {
+  content: "*";
+  font-size: 17px;
+  color: #000;
+  font-weight: bold;
+  padding-left: 3px; }
