@@ -51,7 +51,7 @@
 <head>
   <?php print $head; ?>
 
-  <title> <?php !drupal_is_front_page() ? print $head_title : print "Uddannelsesuge i Aalborg"; ?> </title>
+  <title> <?php !drupal_is_front_page() ? print $head_title :  print t("Uddannelsesuge i Aalborg"); ?> </title>
 
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php print path_to_theme(); ?>/images/icons/apple-touch-icon-144x144-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php print path_to_theme(); ?>/images/icons/apple-touch-icon-114x114-precomposed.png">
