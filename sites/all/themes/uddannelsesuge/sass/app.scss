@@ -190,11 +190,6 @@ section.hero {
   }
 }
 
-.page-content ul {
-  margin-left: 1em;
-}
-
-
 //Module: Tip en 13'er advert
 .m_tip13-ad {
   h2 {
@@ -374,6 +369,15 @@ section.hero {
   color: #999;
   text-decoration: line-through;
   cursor: no-drop;
+}
+
+.node-type-activity .page-content {
+  h3, h4 {
+    margin-top: 2.2em; }
+
+  ul {
+    margin-left: 1em;
+  }
 }
 
 // Page: Signup event

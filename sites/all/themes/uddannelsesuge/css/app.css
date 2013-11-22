@@ -5203,9 +5203,6 @@ section.hero {
 
   .top-bar h1 a span {
     margin-left: 85px; } }
-.page-content ul {
-  margin-left: 1em; }
-
 @media (max-width: 460px) {
   .m_tip13-ad h2 {
     text-align: left !important; } }
@@ -5303,6 +5300,11 @@ section.hero {
   color: #999;
   text-decoration: line-through;
   cursor: no-drop; }
+
+.node-type-activity .page-content h3, .node-type-activity .page-content h4 {
+  margin-top: 2.2em; }
+.node-type-activity .page-content ul {
+  margin-left: 1em; }
 
 .page-arrangementer-register form {
   max-width: 580px; }
