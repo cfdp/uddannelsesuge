@@ -158,6 +158,11 @@ section.hero {
   }
 }
 
+#aktiviteter, #programmet {
+  position: relative;
+  top: -90px;
+}
+
 // Page / Module specific //
 ////////////////////////////
 
@@ -286,10 +291,7 @@ section.hero {
 }
 
 // Module: Activities
-#aktiviteter {
-  position: relative;
-  top: -90px;
-}
+
 .activities {
 
   img {

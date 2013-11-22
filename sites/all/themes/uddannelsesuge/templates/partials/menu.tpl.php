@@ -20,7 +20,7 @@
       <!-- Right Nav Section -->
       <ul class="right" id="top-menu">
         <li><a href="/#aktiviteter">Aktiviteter</a></li>
-        <li><a href="/#program">Program</a></li>
+        <li><a href="/#programmet">Program</a></li>
         <li><a href="/tilmeld">Tilmeld Klasse</a></li>
         <li><a href="/transport">Transport</a></li>
         <li><a href="/om">Om Uddannelsesuge</a></li>
