@@ -5251,6 +5251,10 @@ section.hero {
     line-height: 1.15em;
     margin-bottom: .60em; } }
 
+#aktiviteter {
+  position: relative;
+  top: -90px; }
+
 .activities img {
   display: block;
   margin: 10px 15px 30px 0;

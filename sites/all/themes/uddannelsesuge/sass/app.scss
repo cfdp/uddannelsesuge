@@ -280,13 +280,16 @@ section.hero {
         line-height: 1.15em;
         margin-bottom: .60em;
       }
-
     }
 
   }
 }
 
 // Module: Activities
+#aktiviteter {
+  position: relative;
+  top: -90px;
+}
 .activities {
 
   img {
