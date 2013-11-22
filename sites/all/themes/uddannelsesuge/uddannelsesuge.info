@@ -33,5 +33,4 @@ scripts[] = js/foundation/foundation.reveal.js
 scripts[] = js/foundation/foundation.topbar.js
 
 ; Theme scripts.
-; This file is empty, just uncomment this line and start editing!
-; scripts[] = js/uuge_aalborg.js
+scripts[] = js/uddannelsesuge.js

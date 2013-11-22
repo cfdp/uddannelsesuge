@@ -88,8 +88,6 @@
         <?php hide($content['field_activity_contact_name']); ?>
         <?php hide($content['field_activity_contact_phone']); ?>
         <?php print render($content); ?>
-
-
       </div><!-- .large-7 -->
 
       <div class="sidebar large-4 offset-1 columns">
@@ -113,8 +111,8 @@
             </dd>
           </dl>
         </div>
+      </div><!-- .large-4 -->
 
-      </div>
     </div>
   </div>
   <?php // drupal_set_message('<pre>' . check_plain(var_export($node->nid, TRUE)) . '</pre>');  ?>

@@ -18,7 +18,7 @@
 
     <section class="top-bar-section">
       <!-- Right Nav Section -->
-      <ul class="right">
+      <ul class="right" id="top-menu">
         <li><a href="/#activities">Aktiviteter</a></li>
         <li><a href="/#program">Program</a></li>
         <li><a href="/tilmeld">Tilmeld Klasse</a></li>

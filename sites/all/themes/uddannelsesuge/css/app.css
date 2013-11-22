@@ -5093,11 +5093,19 @@ html, body {
 .ta_right {
   text-align: right; }
 
+sup.asterisk {
+  font-size: 30px;
+  position: relative;
+  top: 6px;
+  color: #137d8f; }
+
 .spacer-navbar {
   margin-top: 30px; }
 
 .page-content section {
   padding: 1em 0; }
+.page-content ul:not(.no-bullet) {
+  margin-left: 1em; }
 
 .lite-info dl dt {
   color: #aaa;
@@ -5292,7 +5300,7 @@ section.hero {
   @media (max-width: 768px) {
     .field-name-field-image img {
       width: 222px; } }
-@media (max-width: 768px) {
+@media (max-width: 321px) {
   .field-name-field-image .field-item {
     text-align: center; } }
 
@@ -5305,8 +5313,6 @@ section.hero {
   margin-top: 2.2em; }
 .node-type-activity .page-content h5 {
   margin-top: 1.2em; }
-.node-type-activity .page-content ul {
-  margin-left: 1em; }
 
 .page-arrangementer-register form {
   max-width: 580px; }

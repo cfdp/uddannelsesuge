@@ -25,13 +25,25 @@ html, body {
 .ta_right {
   text-align: right; }
 
+sup.asterisk {
+  font-size: 30px;
+  position: relative;
+  top: 6px;
+  color: darken($primary-color, 10%); }
+
 // Top bar
 .spacer-navbar {
   margin-top: 30px; }
 
 // page-content
-.page-content section {
-  padding: 1em 0; }
+.page-content {
+  section {
+    padding: 1em 0; }
+
+  ul:not(.no-bullet) {
+    margin-left: 1em;
+  }
+}
 
 .lite-info dl {
   dt {
@@ -358,7 +370,7 @@ section.hero {
     }
   }
   .field-item {
-    @media (max-width: 768px){
+    @media (max-width: 321px){
       text-align: center;
     }
   }
@@ -377,10 +389,6 @@ section.hero {
 
   h5 {
     margin-top: 1.2em;
-  }
-
-  ul {
-    margin-left: 1em;
   }
 }
 
