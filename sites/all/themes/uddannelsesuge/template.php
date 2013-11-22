@@ -23,5 +23,8 @@ function uddannelsesuge_preprocess_node(&$variables) {
 function uddannelsesuge_form_alter(&$form, &$form_state, $form_id) {
   if ($form_id == 'registration_form') {
     $form['actions']['submit']['#value'] = t('Send tilmelding');
+    
+    // Mark registration email field as required
+    $form['anon_mail']['#required'] = 1 ;
   }
 }
