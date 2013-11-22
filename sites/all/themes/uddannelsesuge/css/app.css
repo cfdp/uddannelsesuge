@@ -5303,6 +5303,8 @@ section.hero {
 
 .node-type-activity .page-content h3, .node-type-activity .page-content h4 {
   margin-top: 2.2em; }
+.node-type-activity .page-content h5 {
+  margin-top: 1.2em; }
 .node-type-activity .page-content ul {
   margin-left: 1em; }
 
