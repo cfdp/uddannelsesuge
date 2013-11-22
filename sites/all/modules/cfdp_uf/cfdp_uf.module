@@ -1,0 +1,36 @@
+ <?php
+
+/*
+// TODO: quiz module
+// quiz_question_answering_form
+// cfdp_uf_form_FORMID_alter
+function cfdp_uf_form_quiz_question_answering_form_alter(&$form, &$form_state, $form_id) {}
+*/
+
+// Custom submit handler for registrations with custom redirect
+function cfdp_uf_form_registration_form_alter(&$form, &$form_state, $form_id) {
+  $form['actions']['submit']['#submit'][] = 'cfdp_uf_registration_custom_redirect';
+}
+
+function cfdp_uf_registration_custom_redirect($form, &$form_state) {
+  
+  $registration = $form_state['registration'];
+
+  // Save the registration and redirect.
+  if (registration_save($registration)) {
+    drupal_set_message(t('Registration has been saved.'));
+  
+    // Get parent activity_id    
+    $event_id = (int)$form['#entity']->entity_id; 
+    $node = node_load($event_id);
+    $activity_id = $node->field_aktivitet['und'][0]['target_id'];
+    
+    // Redirect to registration
+    $form_state['redirect'] = 'node/'.$activity_id;
+    
+  }
+  else {
+    drupal_set_message(t('There was a problem submitting your registration.'));
+  }
+
+}
