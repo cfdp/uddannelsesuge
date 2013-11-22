@@ -16,6 +16,8 @@ function cfdp_uf_registration_custom_redirect($form, &$form_state) {
   
   $registration = $form_state['registration'];
 
+  $registration->anon_mail = $form_state['values']['anon_mail'];
+  
   // Save the registration and redirect.
   if (registration_save($registration)) {
     drupal_set_message(t('Registration has been saved.'));
