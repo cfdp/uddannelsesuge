@@ -5203,6 +5203,8 @@ section.hero {
 
   .top-bar h1 a span {
     margin-left: 85px; } }
+.page-content h3, .page-content h4 {
+  margin-top: 2.2em; }
 .page-content ul {
   margin-left: 1em; }
 
