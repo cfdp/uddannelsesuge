@@ -36,3 +36,56 @@ function cfdp_uf_registration_custom_redirect($form, &$form_state) {
   }
 
 }
+
+function cfdp_uf_webform_submission_presave($node, &$submission) {
+  // Update some component's value before it is saved.
+  if($node->nid ==  79){
+
+    // Component id of the webform field that stores the score
+    $score_component_id = 19;
+
+    // List of the component ids of all the questions
+    // Update this once all the questions saved as components
+    // The $correct array and the $questions array need to have the same number of elements
+    // and the same numeric keys
+    $questions = array(2,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+
+    // List of all correct answers for each question
+    // The question's component id is used as the array index
+    // Make sure the array values are exactly the same as the available answers keys 
+    // used in the question's component
+    $correct = array();
+    $correct[2] = 'hojere_handelseksamen';
+    $correct[5] = 'elektriker';
+    $correct[6] = 'bygnings_og_brugerservice';
+    $correct[7] = 'ungdommens_uddannelsesvejledning';
+    $correct[8] = 'tandklinikassistent';
+    $correct[9] = 'aalborg_kongres_og_kulturcenter';
+    $correct[10] = 'ca_olesens_gade';
+    $correct[11] = 'mad_til_mennesker';
+    $correct[12] = 'merkantil';
+    $correct[13] = '23_25_januar';
+    $correct[14] = 'veterinaersygeplejerske';
+    $correct[15] = 'skagen';
+    $correct[16] = 'vildtplejer';
+    $correct[17] = 'hg_handelsskolernes_grunduddannelse';
+    $correct[18] = 'hovmester';
+
+
+    // Get the number of questions in the quiz
+    $nr_questions = count($questions);
+
+    // Compare submitted answears to the correct ones and assign points accordingly
+    $score = 0;
+    foreach($questions as $qid){
+     if($submission->data[$qid][0] == $correct[$qid]){
+        $score++;
+      } 
+    }
+
+    $score_percentage= 100 * $score / $nr_questions;
+
+    // Store the score along with the submission
+    $submission->data[$score_component_id][0] = strval($score_percentage) ." %";
+  }
+}
