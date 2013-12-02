@@ -83,9 +83,18 @@ function cfdp_uf_webform_submission_presave($node, &$submission) {
       } 
     }
 
-    $score_percentage= 100 * $score / $nr_questions;
+    // Determine score percentage
+    $score_percentage = 100 * $score / $nr_questions;
+    
+    // Determine number of decimals to store for the score
+    if($score_percentage < 10 ){
+      $decimals = 4;
+    }else{
+      $decimals = 5;
+    }
 
     // Store the score along with the submission
-    $submission->data[$score_component_id][0] = strval($score_percentage) ." %";
+    // Store only 2 decimals for the percentage
+    $submission->data[$score_component_id][0] = substr(strval($score_percentage), 0, $decimals) ." %";
   }
 }
