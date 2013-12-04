@@ -85,14 +85,19 @@ function cfdp_uf_webform_submission_presave($node, &$submission){
     $score_percentage = 100 * $score / $nr_questions;
     
     // Determine number of decimals to store for the score
-    if($score_percentage < 10 ){
-      $decimals = 4;
-    }else{
-      $decimals = 5;
+    if($score_percentage != 100 ){
+      $score_percentage = substr(strval($score_percentage), 0, 2);
     }
 
     // Store the score along with the submission
     // Store only 2 decimals for the percentage
-    $submission->data[$score_component_id][0] = substr(strval($score_percentage), 0, $decimals) ." %";
+    $submission->data[$score_component_id][0] = $score_percentage ." %";
   }
+}
+
+function cfdp_uf_form_webform_client_form_79_alter(&$form, &$form_state, $form_id){
+  $form['actions']['next']['#attributes']['class'] = array("button","right");
+  $form['actions']['previous']['#attributes']['class'] = array("button", "secondary");
+
+  $form['actions']['submit']['#attributes']['class'] = array("button","right");
 }
