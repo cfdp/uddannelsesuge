@@ -1,10 +1,8 @@
  <?php
 
 /*
-// TODO: quiz module
 // quiz_question_answering_form
 // cfdp_uf_form_FORMID_alter
-function cfdp_uf_form_quiz_question_answering_form_alter(&$form, &$form_state, $form_id) {}
 */
 
 // Custom submit handler for registrations with custom redirect
@@ -37,7 +35,7 @@ function cfdp_uf_registration_custom_redirect($form, &$form_state) {
 
 }
 
-function cfdp_uf_webform_submission_presave($node, &$submission) {
+function cfdp_uf_webform_submission_presave($node, &$submission){
   // Update some component's value before it is saved.
   if($node->nid ==  79){
 
