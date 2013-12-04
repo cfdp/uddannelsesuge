@@ -20,6 +20,7 @@
 ?>
 <div class="row">
   <div class="large-12 columns">
+    <h1><?php echo $node->title; ?></h1>
     
     <?php print $progressbar; ?>
 
@@ -32,7 +33,7 @@
     </div>
 
     <div class="links">
-      <a href="<?php print url('node/'. $node->nid) ?>" class="button"><?php print t('Go back to the form') ?></a>
+      <a href="<?php print url('node/'. $node->nid) ?>" class="button secondary"><?php print t('Go back to the form') ?></a>
     </div>
     
   </div>
