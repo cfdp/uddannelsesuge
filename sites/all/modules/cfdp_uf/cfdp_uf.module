@@ -101,3 +101,7 @@ function cfdp_uf_form_webform_client_form_79_alter(&$form, &$form_state, $form_i
 
   $form['actions']['submit']['#attributes']['class'] = array("button","right");
 }
+
+function cfdp_uf_mail_alter(&$message) {
+  $message['from'] = $message['headers']['From'] = '"Ung Okonomi" <teamet@ungokonomi.dk>';
+}
