@@ -344,6 +344,42 @@ section.hero {
   padding-top: 3em;
 }
 
+// Module: Webform
+.webform-client-form {
+  .webform-progressbar-outer,
+  .webform-progressbar-page {
+    border-color: #137d8f;
+  }
+  .webform-progressbar-inner,
+  .webform-progressbar-page.completed,
+  .webform-progressbar-page.current {
+    background-color: #19a5bc;
+  }
+
+  .webform-component {
+    @include panel;
+
+    .form-item {
+      margin-bottom: 1em;
+    }
+
+    > label {
+      font-weight: bold;
+      padding: 1em 0;
+
+      .form-required {
+        display: none;
+      }
+    }
+    input[type="radio"] {
+      margin: 0 .5em 0 0;
+    }
+  }
+  .webform-component-radios {
+
+  }
+}
+
 
 // Sharing button
 #share-buttons {
