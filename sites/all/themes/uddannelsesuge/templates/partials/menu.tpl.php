@@ -22,6 +22,7 @@
         <li><a href="/#aktiviteter">Aktiviteter</a></li>
         <li><a href="/#programmet">Program</a></li>
         <li><a href="/tilmeld">Tilmeld Klasse</a></li>
+        <li><a href="/quiz">Quiz</a></li>
         <li><a href="/transport">Transport</a></li>
         <li><a href="/om">Om Uddannelsesuge</a></li>
       </ul>
