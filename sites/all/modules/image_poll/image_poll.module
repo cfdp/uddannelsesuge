@@ -357,7 +357,7 @@ function image_poll_form_alter(&$form, $form_state, $form_id) {
 // Add validation to max_choices field.
   if ($form_id == 'image_poll_node_form') {
     $lang = $form['language']['#value'];
-    unset($form['body']);
+    hide($form['body']);
     if (!isset($form['image_poll_max_choices'][$lang])) {
       $lang = 'und';
     }
