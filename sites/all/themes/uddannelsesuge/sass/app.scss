@@ -34,10 +34,6 @@ sup.asterisk {
 // Drupal overrides //
 //////////////////////
 
-.page-content ul:not(.no-bullet) {
-  margin-left: 0;
-}
-
 
 // Top bar
 .spacer-navbar {
@@ -48,9 +44,6 @@ sup.asterisk {
   section {
     padding: 1em 0; }
 
-  ul:not(.no-bullet) {
-    margin-left: 1em;
-  }
 }
 
 .lite-info dl {

@@ -5099,16 +5099,11 @@ sup.asterisk {
   top: 6px;
   color: #137d8f; }
 
-.page-content ul:not(.no-bullet) {
-  margin-left: 0; }
-
 .spacer-navbar {
   margin-top: 30px; }
 
 .page-content section {
   padding: 1em 0; }
-.page-content ul:not(.no-bullet) {
-  margin-left: 1em; }
 
 .lite-info dl dt {
   color: #aaa;
