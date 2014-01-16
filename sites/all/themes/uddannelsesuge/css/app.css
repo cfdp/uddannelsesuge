@@ -5218,6 +5218,9 @@ section.hero {
 @media (max-width: 460px) {
   .m_tip13-ad h2 {
     text-align: left !important; } }
+@media (max-width: 280px) {
+  .m_tip13-ad .small-4 img {
+    display: none; } }
 @media (max-width: 322px) {
   .m_tip13-ad .subheader {
     display: none; } }

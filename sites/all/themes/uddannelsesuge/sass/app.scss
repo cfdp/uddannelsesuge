@@ -215,6 +215,12 @@ section.hero {
     }
   }
 
+  @media (max-width: 280px) {
+    .small-4 img {
+      display: none;
+    }
+  }
+
 
   .subheader {
     @media (max-width: 322px) {
