@@ -81,7 +81,11 @@
   <div class="columns">
 
 
-    <h3<?php print $title_attributes; ?>><?php print $title; ?></h3>
+  <?php if (drupal_is_front_page()): ?>
+    <h4<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h4>
+  <?php else: ?>
+    <h4<?php print $title_attributes; ?>>Afstemning: <?php print $title; ?></h4>
+  <?php endif; ?>
 
     <div class="row">
       <div class="columns inner-wrapper">
@@ -90,7 +94,17 @@
           <?php print render($content['field_extra_info']); ?>
         </div>
 
-        <?php print render($content['links']); ?>
+        <?php // print render($content['links']); ?>
+
+        <div class="share-poll">
+          <?php
+            $sharing_url = "http://uddannelsesuge.dk" . $node_url;
+            $sharing_text = "Afstemning: $title | Uddannelse uge i Aalborg i uge 4 2014";
+            include(path_to_theme() . '/templates/partials/sharing-btns.tpl.php');
+          ?>
+        </div>
+
+
 
 
 
