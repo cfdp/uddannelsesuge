@@ -4,6 +4,7 @@
 
 
         $('.poll.image_poll .choice').bind('touchstart mousedown', function(e){
+            alert('test');
             $(this).find('label').prop("checked", true).trigger("click");
         });
 
