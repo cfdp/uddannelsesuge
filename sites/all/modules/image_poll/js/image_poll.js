@@ -3,7 +3,8 @@
     attach: function() {
 
 
-        $('.poll.image_poll .choice').bind('touchstart mousedown', function(e){
+        $('.poll.image_poll .choice').bind('touchstart click', function(e){
+            e.preventDefault();
             alert('test');
             $(this).find('label').prop("checked", true).trigger("click");
         });
