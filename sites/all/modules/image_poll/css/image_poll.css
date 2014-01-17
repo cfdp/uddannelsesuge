@@ -397,3 +397,9 @@ Custom changes for mini images poll
 .poll .poll-bar.voted .votes-wrapper .votes {
   background-color: #135377;  
 }
+
+/* Hide the extra info field, it's reveale dby .js */
+.field-name-field-extra-info{
+  display: none;
+  width: 454px;
+}

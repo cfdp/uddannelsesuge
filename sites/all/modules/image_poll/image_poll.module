@@ -181,7 +181,7 @@ function image_poll_node_view($node, $view_mode) {
 
 /**
  * Implements hook_block_info().
- */
+ *//*
 function image_poll_block_info() {
 
   $blocks['image_poll_recent'] = array(
@@ -191,11 +191,11 @@ function image_poll_block_info() {
   $blocks = image_poll_get_poll_info_blocks($blocks);
 
   return $blocks;
-}
+}*/
 
 /**
  * Implements hook_block_view().
- */
+ *//*
 function image_poll_block_view($delta = '') {
   $block = array();
 
@@ -214,7 +214,7 @@ function image_poll_block_view($delta = '') {
       break;
   }
   return $block;
-}
+}*/
 
 /**
  * Implements hook_theme().
@@ -993,7 +993,7 @@ function image_poll_get_recent() {
  * @return 
  * Block object
  */
-
+/*
 function image_poll_get_poll_info_blocks($blocks) {
   $result = db_query("SELECT n.title, n.nid FROM {node} n
                       LEFT JOIN {field_data_image_poll_options} o
@@ -1013,7 +1013,7 @@ function image_poll_get_poll_info_blocks($blocks) {
   }
 
   return $blocks;
-}
+}*/
 
 /*
  * Fetch nodes associated with delta for polls that are marked to show as blocks.
@@ -1025,7 +1025,7 @@ function image_poll_get_poll_info_blocks($blocks) {
  * @return
  * Returns a block object
  */
-
+/*
 function image_poll_generate_block_view($block, $delta) {
 // only run this process when there is an Image Poll
 // block to process
@@ -1071,7 +1071,7 @@ function image_poll_generate_block_view($block, $delta) {
     }
   }
   return $block;
-}
+}*/
 
 /**
  * Results access callback.

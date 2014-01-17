@@ -4,7 +4,7 @@ drupal_add_http_header('X-XSS-Protection', '0');
 
 /*
 * Preprocess function to allow the rendering of regions in node templates
-*/
+*//*
 function uddannelsesuge_preprocess_node(&$variables) {
 	// Get a list of all the regions for this theme
 	foreach (system_region_list($GLOBALS['theme']) as $region_key => $region_name) {
@@ -17,7 +17,7 @@ function uddannelsesuge_preprocess_node(&$variables) {
 			$variables['region'][$region_key] = array();
 		}
 	}
-}
+}*/
 
 // Customize submit button on registration-form
 function uddannelsesuge_form_alter(&$form, &$form_state, $form_id) {
