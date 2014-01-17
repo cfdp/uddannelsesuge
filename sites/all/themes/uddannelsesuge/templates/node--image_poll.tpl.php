@@ -78,9 +78,8 @@
 <article id="node-<?php print $node->nid; ?>" class="row <?php print $classes; ?>"<?php print $attributes; ?>>
   <div class="columns">
 
-    <?php if (!drupal_is_front_page()): ?>
-      <h1<?php print $title_attributes; ?>><?php print $title; ?></h1>
-    <?php endif; ?>
+
+    <h3<?php print $title_attributes; ?>><?php print $title; ?></h3>
 
     <div class="row">
       <div class="columns">
