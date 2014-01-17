@@ -195,7 +195,7 @@ Custom changes for mini images poll
 }
 
 .poll.image_poll input[type="radio"] {
-
+  display: none;
     /*width: 225px;
     height: 225px;
     margin: 0;
