@@ -31,6 +31,10 @@ sup.asterisk {
   top: 6px;
   color: darken($primary-color, 10%); }
 
+// Drupal overrides //
+//////////////////////
+
+
 // Top bar
 .spacer-navbar {
   margin-top: 30px; }
@@ -40,9 +44,6 @@ sup.asterisk {
   section {
     padding: 1em 0; }
 
-  ul:not(.no-bullet) {
-    margin-left: 1em;
-  }
 }
 
 .lite-info dl {
