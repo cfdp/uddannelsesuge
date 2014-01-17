@@ -75,6 +75,7 @@
  * @see template_process()
  */
 ?>
+<?php hide($content['links']); ?>
 <article id="node-<?php print $node->nid; ?>" class="row <?php print $classes; ?>"<?php print $attributes; ?>>
   <div class="columns">
 
@@ -84,7 +85,7 @@
     <div class="row">
       <div class="columns">
         <?php print render($content); ?>
-
+        <?php print render($content['links']); ?>
 
       </div><!-- .columns -->
     </div>
