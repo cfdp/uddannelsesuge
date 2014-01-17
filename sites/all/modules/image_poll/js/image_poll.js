@@ -2,6 +2,12 @@
     Drupal.behaviors.YourBehaviour = {
     attach: function() {
 
+        // $('.poll.image_poll .choice').click(function(e){
+        //     alert('Michael is truely awesome, and daniel a bit');
+        //     $(this).find('label').mousedown();
+
+        // });
+
         // Reveal extra info field after casting the vote for first time users
         $('[id^=image_poll-form]').click(function(event){
 

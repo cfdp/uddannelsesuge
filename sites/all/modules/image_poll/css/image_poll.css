@@ -195,7 +195,8 @@ Custom changes for mini images poll
 }
 
 .poll.image_poll input[type="radio"] {
-    width: 225px;
+
+    /*width: 225px;
     height: 225px;
     margin: 0;
     position: absolute;
@@ -206,7 +207,7 @@ Custom changes for mini images poll
     opacity: 0;
     cursor: pointer;
     left: 0;
-    bottom: 0;
+    bottom: 0;*/
 }
 
 .poll.image_poll .choices {
