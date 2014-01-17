@@ -101,7 +101,7 @@
             <dd><?php print render($content['field_activity_place']); ?></dd>
             <dt>Ansvarlig</dt>
             <dd><?php print render($content['field_activity_contact_name']); ?> - <?php print render($content['field_activity_contact_phone']); ?></dd>
-            <dt>Del aktiviteten</dt>
+            <!--<dt>Del aktiviteten</dt>-->
             <dd>
               <?php
                 $sharing_url = "http://uddannelsesuge.dk". $node_url;
