@@ -2,10 +2,8 @@
     Drupal.behaviors.YourBehaviour = {
     attach: function() {
 
-
         $('.poll.image_poll .choice').bind('touchstart mousedown', function(e){
             e.preventDefault();
-            alert('test');
             $(this).find('label').prop("checked", true).trigger("click");
         });
 
