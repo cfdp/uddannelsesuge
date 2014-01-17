@@ -76,6 +76,7 @@
  */
 ?>
 <?php hide($content['links']); ?>
+<?php hide($content['field_extra_info']); ?>
 <article id="node-<?php print $node->nid; ?>" class="row <?php print $classes; ?>"<?php print $attributes; ?>>
   <div class="columns">
 
@@ -85,6 +86,7 @@
     <div class="row">
       <div class="columns inner-wrapper">
         <?php print render($content); ?>
+        <?php print render($content['field_extra_info']); ?>
         <?php print render($content['links']); ?>
 
       </div><!-- .columns -->
