@@ -83,7 +83,7 @@
     <h3<?php print $title_attributes; ?>><?php print $title; ?></h3>
 
     <div class="row">
-      <div class="columns">
+      <div class="columns inner-wrapper">
         <?php print render($content); ?>
         <?php print render($content['links']); ?>
 
