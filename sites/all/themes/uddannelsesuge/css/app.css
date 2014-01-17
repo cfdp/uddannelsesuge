@@ -5408,3 +5408,18 @@ section.hero {
 
 .view-display-id-page_2 .views-table {
   margin: 2em auto; }
+
+@media (max-width: 945px) {
+  .view-id-image_polls .poll {
+    min-width: 450px;
+    position: relative;
+    max-width: none; }
+  .view-id-image_polls .poll-wrapper {
+    max-width: 690px;
+    position: relative;
+    display: inline-block; }
+  .view-id-image_polls .views-row-1 {
+    width: 100%;
+    text-align: center; }
+  .view-id-image_polls .views-row-2 {
+    display: none; } }

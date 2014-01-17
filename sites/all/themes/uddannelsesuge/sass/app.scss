@@ -496,3 +496,27 @@ section.hero {
 .view-display-id-page_2 .views-table {
   margin: 2em auto;
 }
+
+// Minipolls
+.view-id-image_polls {
+  @media (max-width:945px) {
+    .poll {
+      min-width: 450px;
+      position: relative;
+      max-width: none; }
+
+    .poll-wrapper {
+      max-width: 690px;
+      position: relative;
+      display: inline-block;
+    }
+
+    .views-row-1 {
+      width: 100%;
+      text-align: center; }
+
+    .views-row-2 {
+      display: none;
+    }
+  }
+}
