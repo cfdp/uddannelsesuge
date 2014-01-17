@@ -6,7 +6,7 @@
         $('[id^=image_poll-form]').click(function(event){
 
             var mp_node = $(this).parents('.inner-wrapper');
-            mp_node.children('.field-name-field-extra-info').slideDown();
+            mp_node.children('.extra-info-wrapper').slideDown();
         });
 
         // When changing votes, first the vote is canceled and then
@@ -18,7 +18,7 @@
 
         // Reveal extra info field after changing the vote
             var mp_node = $('input[value^=' + formid + ']').parents('.inner-wrapper');
-            mp_node.children('.field-name-field-extra-info').slideDown();
+            mp_node.children('.extra-info-wrapper').slideDown();
         });
     }
 

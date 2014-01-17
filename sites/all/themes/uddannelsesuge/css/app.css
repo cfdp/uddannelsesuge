@@ -5093,6 +5093,9 @@ html, body {
 .ta_right {
   text-align: right; }
 
+.l_dis-ib {
+  display: inline-block; }
+
 sup.asterisk {
   font-size: 30px;
   position: relative;
@@ -5409,6 +5412,13 @@ section.hero {
 .view-display-id-page_2 .views-table {
   margin: 2em auto; }
 
+.view-id-image_polls .extra-info-wrapper {
+  display: none; }
+.view-id-image_polls .field-name-field-extra-info {
+  padding: 10px;
+  background: #efefef;
+  border: 1px solid #ccc;
+  display: inline-block; }
 @media (max-width: 945px) {
   .view-id-image_polls .poll {
     min-width: 450px;
@@ -5460,3 +5470,5 @@ section.hero {
         width: 145px; }
         .view-id-image_polls .poll.image_poll .choices .choice .choice-image {
           height: auto; } }
+.view-id-image_polls ul.inline li {
+  padding: 0; }

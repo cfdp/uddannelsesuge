@@ -25,6 +25,10 @@ html, body {
 .ta_right {
   text-align: right; }
 
+.l_dis-ib {
+  display: inline-block;
+}
+
 sup.asterisk {
   font-size: 30px;
   position: relative;
@@ -499,6 +503,16 @@ section.hero {
 
 // Minipolls
 .view-id-image_polls {
+
+  .extra-info-wrapper {display: none}
+
+  .field-name-field-extra-info {
+    padding: 10px;
+    background: #efefef;
+    border: 1px solid #ccc;
+    display: inline-block
+  }
+
   @media (max-width:945px) {
     .poll {
       min-width: 450px;
@@ -572,6 +586,11 @@ section.hero {
         }
       }
     }
+  }
+
+  // a system override
+  ul.inline li {
+    padding: 0;
   }
 
 }

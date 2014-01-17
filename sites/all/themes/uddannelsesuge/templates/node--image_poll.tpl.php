@@ -86,8 +86,14 @@
     <div class="row">
       <div class="columns inner-wrapper">
         <?php print render($content); ?>
-        <?php print render($content['field_extra_info']); ?>
+        <div class="extra-info-wrapper">
+          <?php print render($content['field_extra_info']); ?>
+        </div>
+
         <?php print render($content['links']); ?>
+
+
+
 
       </div><!-- .columns -->
     </div>
