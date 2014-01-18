@@ -513,6 +513,7 @@ section.hero {
     display: inline-block
   }
 
+  // Frontpage hack to make 2 minipoll align to the right.
   .front & .views-row-2 {
     padding-left: 36px;
   }
@@ -537,7 +538,8 @@ section.hero {
       width: 100%;
       text-align: center; }
 
-    .views-row-2 {
+// Frontpage hack to hide 2. imagepoll
+.front & .views-row-2 {
       display: none;
     }
   }

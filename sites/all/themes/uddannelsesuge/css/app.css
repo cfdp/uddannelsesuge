@@ -5435,7 +5435,7 @@ section.hero {
   .view-id-image_polls .views-row-1 {
     width: 100%;
     text-align: center; }
-  .view-id-image_polls .views-row-2 {
+  .front .view-id-image_polls .views-row-2 {
     display: none; } }
 @media (max-width: 480px) {
   .view-id-image_polls {

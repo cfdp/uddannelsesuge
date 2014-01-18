@@ -99,7 +99,7 @@
         <div class="share-poll">
           <?php
             $sharing_url = "http://uddannelsesuge.dk" . $node_url;
-            $sharing_text = "Afstemning: $title | Uddannelse uge i Aalborg i uge 4 2014";
+            $sharing_text = htmlentities("Afstemning: $title | Uddannelse uge i Aalborg i uge 4 2014");
             include(path_to_theme() . '/templates/partials/sharing-btns.tpl.php');
           ?>
         </div>
