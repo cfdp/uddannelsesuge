@@ -543,7 +543,8 @@ section.hero {
       display: inline-block;
     }
 
-    .views-row-1 {
+// Frontpage hack
+.front & .views-row-1 {
       width: 100%;
       text-align: center; }
 
@@ -613,4 +614,10 @@ section.hero {
     padding: 0;
   }
 
+}
+
+.view-image-polls {
+  .views-row {
+    margin-bottom: 2em;
+  }
 }

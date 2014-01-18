@@ -5443,7 +5443,7 @@ section.hero {
     max-width: 690px;
     position: relative;
     display: inline-block; }
-  .view-id-image_polls .views-row-1 {
+  .front .view-id-image_polls .views-row-1 {
     width: 100%;
     text-align: center; }
   .front .view-id-image_polls .views-row-2 {
@@ -5488,3 +5488,6 @@ section.hero {
           height: auto; } }
 .view-id-image_polls ul.inline li {
   padding: 0; }
+
+.view-image-polls .views-row {
+  margin-bottom: 2em; }
