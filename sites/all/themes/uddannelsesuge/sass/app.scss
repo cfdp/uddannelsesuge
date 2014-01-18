@@ -6,6 +6,11 @@
 // Universal //
 ///////////////
 
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 html, body {
   height: 100%; } // fix for sticky footer
 
@@ -518,6 +523,10 @@ section.hero {
     padding-left: 36px;
   }
 
+  .view-content {
+    @include clearfix;
+  }
+
   .more-link {
     margin-right: 15px;
   }
@@ -560,6 +569,7 @@ section.hero {
     .field-name-field-extra-info{
       padding: 0 10px;
       width: 294px;
+      font-size: 13px;
     }
 
     .poll {

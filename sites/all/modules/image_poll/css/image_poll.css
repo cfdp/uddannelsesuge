@@ -349,20 +349,16 @@ Custom changes for mini images poll
   width: 80px;
   bottom: 140px;
   right: 0;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  border: 2px solid #FFF;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-  -khtml-border-radius: 2px;
-  border-radius: 2px;
+  padding-bottom: 7px;
+  padding-top: 7px;
 }
 
 .poll .votes-wrapper .votes .total-votes{
   text-align: center;
   vertical-align: middle;
   color: #fff;
-  font-size: 14px;
+  font-size: 12px;
+  letter-spacing: 1px;
 }
 
 .poll .poll-bar + .poll-bar .votes-wrapper .votes {
