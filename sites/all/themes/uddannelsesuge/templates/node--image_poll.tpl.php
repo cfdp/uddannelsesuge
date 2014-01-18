@@ -94,8 +94,6 @@
           <?php print render($content['field_extra_info']); ?>
         </div>
 
-        <?php // print render($content['links']); ?>
-
         <div class="share-poll">
           <?php
             $sharing_url = "http://uddannelsesuge.dk" . $node_url;
@@ -103,12 +101,6 @@
             include(path_to_theme() . '/templates/partials/sharing-btns.tpl.php');
           ?>
         </div>
-
-
-
-
-
-
       </div><!-- .columns -->
     </div>
   </div>
